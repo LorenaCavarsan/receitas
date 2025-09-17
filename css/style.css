@@ -1,0 +1,108 @@
+body{
+    font-family: Arial, sans-serif;
+    background-color: oldlace;
+}
+
+h1{
+    text-align: center;
+    font-size: 50px;
+    color: lightblue;
+}
+
+h3{
+    font-size: 30px;
+    color: lightblue;
+}
+
+p{
+    font-size: 20px;
+    color: lightslategray;
+}
+
+center {
+    display: block;
+    text-align: -webkit-center;
+    unicode-bidi: isolate;
+    height: 60px;
+}
+
+nav {
+    padding: 20px 0;
+}
+
+nav ul {
+    list-style-type: none;  /* tira o texto em formato de lista */
+    margin: 0;  
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    position: relative; 
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: skyblue;  /* color: #257e0f; */
+    text-decoration: none;
+    font-size: 25px;
+    padding: 10px;
+    display: block; 
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #839deb;
+}
+
+ul{
+    color: lightslategray;
+}
+
+ul li{
+    font-size: 20px;
+}
+
+ol{
+    color: lightslategray;
+}
+
+ol li{
+    font-size: 20px;
+}
+
+/* TABELA */
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+ 
+th{
+    background-color: lightblue;
+    color: oldlace;
+    padding: 20px;
+    font-size: 25px;
+ 
+}
+ 
+td{
+    border: 1px solid #dee2e6;
+    padding: 20px;
+    text-align: center;
+ 
+ 
+    background-color: snow;
+    color: #839deb;
+    font-size: 20px;
+}
+ 
+tbody tr:nth-child(even){
+    background-color: lightslategray;
+}
+
+img{
+    width: 120px;
+}
